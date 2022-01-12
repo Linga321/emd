@@ -1,0 +1,35 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+ritimer_15xx.h:107:20:void Chip_RIT_Enable(LPC_RITIMER_T*)	16	static
+ritimer_15xx.h:117:20:void Chip_RIT_Disable(LPC_RITIMER_T*)	16	static
+ritimer_15xx.h:171:20:bool Chip_RIT_GetIntStatus(LPC_RITIMER_T*)	16	static
+ritimer_15xx.h:181:20:void Chip_RIT_ClearIntStatus(LPC_RITIMER_T*)	16	static
+LiquidCrystal.cpp:10:6:void delayMicroseconds(unsigned int)	40	static
+LiquidCrystal.cpp:43:1:LiquidCrystal::LiquidCrystal(DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*, DigitalIoPin*)	24	static
+LiquidCrystal.cpp:59:6:void LiquidCrystal::begin(uint8_t, uint8_t, uint8_t)	16	static
+LiquidCrystal.cpp:133:6:void LiquidCrystal::clear()	16	static
+LiquidCrystal.cpp:139:6:void LiquidCrystal::home()	16	static
+LiquidCrystal.cpp:148:6:void LiquidCrystal::print(const string&)	40	static
+LiquidCrystal.cpp:167:6:void LiquidCrystal::print(const char*)	24	static
+LiquidCrystal.cpp:185:6:void LiquidCrystal::setCursor(uint8_t, uint8_t)	40	static
+LiquidCrystal.cpp:196:6:void LiquidCrystal::noDisplay()	16	static
+LiquidCrystal.cpp:200:6:void LiquidCrystal::display()	16	static
+LiquidCrystal.cpp:206:6:void LiquidCrystal::noCursor()	16	static
+LiquidCrystal.cpp:210:6:void LiquidCrystal::cursor()	16	static
+LiquidCrystal.cpp:216:6:void LiquidCrystal::noBlink()	16	static
+LiquidCrystal.cpp:220:6:void LiquidCrystal::blink()	16	static
+LiquidCrystal.cpp:226:6:void LiquidCrystal::scrollDisplayLeft()	16	static
+LiquidCrystal.cpp:229:6:void LiquidCrystal::scrollDisplayRight()	16	static
+LiquidCrystal.cpp:234:6:void LiquidCrystal::leftToRight()	16	static
+LiquidCrystal.cpp:240:6:void LiquidCrystal::rightToLeft()	16	static
+LiquidCrystal.cpp:246:6:void LiquidCrystal::autoscroll()	16	static
+LiquidCrystal.cpp:252:6:void LiquidCrystal::noAutoscroll()	16	static
+LiquidCrystal.cpp:259:6:void LiquidCrystal::createChar(uint8_t, uint8_t*)	32	static
+LiquidCrystal.cpp:269:13:void LiquidCrystal::command(uint8_t)	16	static
+LiquidCrystal.cpp:273:15:virtual size_t LiquidCrystal::write(uint8_t)	16	static
+LiquidCrystal.cpp:281:6:void LiquidCrystal::send(uint8_t, uint8_t)	16	static
+LiquidCrystal.cpp:288:6:void LiquidCrystal::pulseEnable()	16	static
+LiquidCrystal.cpp:297:6:void LiquidCrystal::write4bits(uint8_t)	24	static
+stl_iterator.h:907:5:bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = const char*; _Container = std::__cxx11::basic_string<char>]	24	static
+stl_iterator.h:827:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>& __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator++() [with _Iterator = const char*; _Container = std::__cxx11::basic_string<char>]	16	static
+stl_iterator.h:819:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::reference __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator*() const [with _Iterator = const char*; _Container = std::__cxx11::basic_string<char>]	16	static
+stl_iterator.h:871:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = const char*; _Container = std::__cxx11::basic_string<char>]	16	static
